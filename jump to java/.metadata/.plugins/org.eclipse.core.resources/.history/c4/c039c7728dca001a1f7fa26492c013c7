@@ -1,0 +1,13 @@
+package jump2java;
+
+public class HelloWorld {
+	public static void main(String args[]) {
+		System.out.println("Hello World");
+	}
+	int a;
+	String b
+	
+	a = 1;
+	b = "Hello Java";
+	
+}
