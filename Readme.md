@@ -45,3 +45,9 @@ what is 'public static void main(String[] args)'?
 **'void' means this functions has no returns**
 
 ''
+
+
+
+## 0726
+
+I study today but my github doesn't know it Fxxx
