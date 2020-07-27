@@ -35,3 +35,26 @@
    - mvc.perform의 결과를 검증ㅎ바니다.
    - 응답 본문의 내용을 검증합니다.
    - Controller에서 "hello"를 리턴하기 때문에 이 값이 맞는지 검증합니다.
+
+
+
+## 0727
+
+1. @Getter
+   - 선언된 모든 필드의 get 메소드를 생성해 줍니다.
+2. @RequiredArgsConstructor
+   - 선언된 모든 final 필드가 포함된 생성자를 생성해 줍니다.
+   - final이 없는 필드는 생성자에 포함되지 않습니다.
+3. final
+   - [참고링크](https://blog.lulab.net/programming-java/java-final-when-should-i-use-it/)
+   - 엔티티를 한번만 할당한다 (엔티티 개념을 알아야할듯)
+4. assertThat
+   - assertj라는 테스트 검증 라이브러리의 검증 메소드입니다.
+   - 검증하고 싶은 대상을 메소드 인자로 받습니다.
+   - 메소드 체이닝이 지원되어 isEqualTo와 같이 메소드를 이어서 사용할 수 있습니다.
+5. isEqualTo
+   - assertj의 동등 비교 메소드입니다.
+   - assertthat에 있는 값과 isEqualTo의 갑슬 비교해서 같을 때만 성공입니다.
+6. @RequestParam
+   - 외부에서 API로 넘긴 파라미터를 가져오는 어노테이션입니다.
+   - 여기서는 외부에서 name이란 이름으로 넘긴 파라미터를 메소드 파라미터 name에 저장하게 됩니다.
